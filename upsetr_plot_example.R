@@ -24,8 +24,7 @@ library(conflicted)
 library(ggpubr)             #ggarrange(example, example, ncol = 2, labels = c("A", "B"))
 library(tiff)
 
-###Setting the directory
-setwd("C:/Users/ik/Desktop/2020/project NTpro-BNP/Tables")
+###Set the directory setwd("pathtofolder")
 
 
 ###UpSetR graph for better visualization
@@ -65,7 +64,7 @@ upset(fromExpression(input),
 )
 
 ###Save plot as tiff
-tiff(filename = "NT-proBNP UpSetR 20210423.tiff", 
+tiff(filename = "UpSetR_plot.tiff", 
      units = "in", 
      width = 9.5, height = 8, 
      res = 300, compression = "lzw")
