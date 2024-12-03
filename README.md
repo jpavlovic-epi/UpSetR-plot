@@ -1,7 +1,7 @@
 Script for creating Upsetr plot
 
 Overview
-This project creates an UpSetR plot to visualize relationships and overlaps between different sets of populations. This can be viewed as an alternative to Venn's Diagram. The output is saved as a high-quality TIFF file.
+This project creates an UpSetR plot (developed by Jake Conway [cre], Nils Gehlenborg [aut] DOI: 10.32614/CRAN.package.UpSetR) to visualize relationships and overlaps between different sets of populations. This can be viewed as an alternative to Venn's Diagram. The output is saved as a high-quality TIFF file.
 
 How to Use
 Install Required Packages.
